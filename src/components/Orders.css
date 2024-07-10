@@ -1,0 +1,61 @@
+.orders-container {
+  padding: 20px;
+}
+
+.order-section,
+.payment-section,
+.delivery-section {
+  background-color: peachpuff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.order-section h2,
+.payment-section h2,
+.delivery-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: pink;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: purple;
+}
+
+#response {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid wheat;
+  border-radius: 8px;
+}
+
